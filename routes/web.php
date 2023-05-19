@@ -14,5 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    $title = 'Hello World!';
+    $text = 'made by anas hamimi';
+    return view('home', compact('title', 'text'));
+});
+
+Route::get('links', function () {
+    $title = 'Choose a link';
+    return view('links', compact('title'));
 });
