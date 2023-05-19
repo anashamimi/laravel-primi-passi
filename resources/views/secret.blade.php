@@ -18,5 +18,6 @@
     </head>
     <body class="antialiased">
         <h1>{{$title}}</h1>
+        <a href="{{ route('home') }}">Torna alla Home</a>
     </body>
 </html>

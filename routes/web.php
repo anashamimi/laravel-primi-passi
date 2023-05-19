@@ -14,12 +14,17 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $title = 'Hello World!';
+    $title = 'Trova il giusto link per accedere alla stanza segreta';
     $text = 'made by anas hamimi';
     return view('home', compact('title', 'text'));
-});
+})->name('home');
 
-Route::get('links', function () {
-    $title = 'Choose a link';
-    return view('links', compact('title'));
-});
+Route::get('secret', function () {
+    $title = 'Congratulazioni hai trovato la stanza segreta';
+    return view('secret', compact('title'));
+})->name('secret');
+
+Route::get('wrong', function () {
+    $title = 'Mi dispiace non è la stanza segreta :)';
+    return view('wrong', compact('title'));
+})->name('wrong');

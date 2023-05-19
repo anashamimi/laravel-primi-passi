@@ -19,5 +19,43 @@
     <body class="antialiased">
         <h1>{{$title}}</h1>
         <p>{{$text}}</p>
+
+        <a href="{{ route('wrong') }}">Prova a cliccarmi</a>
+        <a href="{{ route('wrong') }}">Prova a cliccarmi</a>
+        <a href="{{ route('wrong') }}">Prova a cliccarmi</a>
+        <a href="{{ route('secret') }}">Prova a cliccarmi</a>
+        <a href="{{ route('wrong') }}">Prova a cliccarmi</a>
+        <a href="{{ route('wrong') }}">Prova a cliccarmi</a>
+        <a href="{{ route('wrong') }}">Prova a cliccarmi</a>
+        <a href="{{ route('wrong') }}">Prova a cliccarmi</a>
+        <a href="{{ route('wrong') }}">Prova a cliccarmi</a>
+        <a href="{{ route('wrong') }}">Prova a cliccarmi</a>
+        <a href="{{ route('wrong') }}">Prova a cliccarmi</a>
+        <a href="{{ route('wrong') }}">Prova a cliccarmi</a>
+        <a href="{{ route('wrong') }}">Prova a cliccarmi</a>
+        <a href="{{ route('wrong') }}">Prova a cliccarmi</a>
+        <a href="{{ route('wrong') }}">Prova a cliccarmi</a>
+        <a href="{{ route('wrong') }}">Prova a cliccarmi</a>
+        <a href="{{ route('wrong') }}">Prova a cliccarmi</a>
+        <a href="{{ route('wrong') }}">Prova a cliccarmi</a>
+        <a href="{{ route('wrong') }}">Prova a cliccarmi</a>
+        <a href="{{ route('wrong') }}">Prova a cliccarmi</a>
+        <a href="{{ route('wrong') }}">Prova a cliccarmi</a>
+        <a href="{{ route('wrong') }}">Prova a cliccarmi</a>
+        <a href="{{ route('wrong') }}">Prova a cliccarmi</a>
+        <a href="{{ route('wrong') }}">Prova a cliccarmi</a>
+        <a href="{{ route('wrong') }}">Prova a cliccarmi</a>
+        <a href="{{ route('wrong') }}">Prova a cliccarmi</a>
+        <a href="{{ route('wrong') }}">Prova a cliccarmi</a>
+        <a href="{{ route('wrong') }}">Prova a cliccarmi</a>
+        <a href="{{ route('wrong') }}">Prova a cliccarmi</a>
+        <a href="{{ route('wrong') }}">Prova a cliccarmi</a>
+        <a href="{{ route('wrong') }}">Prova a cliccarmi</a>
+        <a href="{{ route('wrong') }}">Prova a cliccarmi</a>
+        <a href="{{ route('wrong') }}">Prova a cliccarmi</a>
+        <a href="{{ route('wrong') }}">Prova a cliccarmi</a>
+        <a href="{{ route('wrong') }}">Prova a cliccarmi</a>
+        <a href="{{ route('wrong') }}">Prova a cliccarmi</a>
+
     </body>
 </html>
