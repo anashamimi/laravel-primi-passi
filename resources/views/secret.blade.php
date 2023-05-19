@@ -18,6 +18,7 @@
     </head>
     <body class="antialiased">
         <h1>{{$title}}</h1>
+        <img src="https://static.vecteezy.com/ti/vettori-gratis/p3/6425320-design-piatto-trofeo-trofeo-vettore-isolato-su-sfondo-bianco-gratuito-vettoriale.jpg" alt="trofeo" width="200px">
         <a href="{{ route('home') }}">Torna alla Home</a>
     </body>
 </html>
